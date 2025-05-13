@@ -1,8 +1,8 @@
 name: Update Data
 on:
   schedule:
-    # Run every hour, at the 35th minute
-    - cron: '35 * * * *'
+    # Run every 3 hour
+    - cron: '0 */3 * * *'
   push:
     branches:
       - main
